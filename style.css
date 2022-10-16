@@ -1,0 +1,157 @@
+body {
+  background-color: hsl(216, 12%, 8%);
+  color: white;
+}
+.main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.first {
+  background-color: hsl(213, 19%, 18%);
+  height: 370px;
+  width: 350px;
+  border-radius: 10px;
+  display: flex; /* undo this with js to display*/
+  align-items: center;
+  flex-direction: column;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.first .star {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: flex-start;
+  margin-top: 30px;
+  margin-left: 30px;
+  height: 40px;
+  width: 40px;
+  background-color: hsla(216, 12%, 54%, 0.428);
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.first .star img {
+  height: 15px;
+}
+.first h2 {
+  font-family: "Overpass", sans-serif;
+  align-self: flex-start;
+  margin: 0px;
+  margin-top: 20px;
+  font-weight: 500;
+  margin-left: 30px;
+}
+.first p {
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: "Overpass", sans-serif;
+  font-weight: 300;
+  line-height: 1.5;
+  font-size: 14.5px;
+}
+.first .rating {
+  display: flex;
+  flex-direction: row;
+  width: calc(100% - 30px);
+  justify-content: space-around;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+.first .rate {
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+  background-color: hsl(217, 12%, 63%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.first .rate:hover {
+  background-color: hsl(25, 97%, 53%);
+}
+.first .active{
+  background-color: hsl(25, 97%, 53%);
+}
+.first button {
+  cursor: pointer;
+  width: calc(100% - 60px);
+  height: 50px;
+  background-color: hsl(25, 97%, 53%);
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  font-family: "Overpass", sans-serif;
+  color: white;
+  letter-spacing: 1.8px;
+  font-size: 15px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+.first button:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+}
+.two {
+  background-color: hsl(213, 19%, 18%);
+  height: 370px;
+  width: 350px;
+  border-radius: 10px;
+  display: none; /* undo this with js to display*/
+  align-items: center;
+  flex-direction: column;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.two img {
+  margin-top: 30px;
+}
+#urRating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+  font-size: 16px;
+  color: hsl(25, 97%, 53%);
+  font-family: "Overpass", sans-serif;
+  font-weight: 400;
+  background-color: hsla(216, 12%, 54%, 0.428);
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.two h2 {
+  margin: 0px;
+  padding: 0px;
+  margin-top: 10px;
+  font-family: "Overpass", sans-serif;
+}
+.two .art {
+  font-family: "Overpass", sans-serif;
+  text-align: center;
+  font-weight: 300;
+  line-height: 1.5;
+  padding-left: 20px;
+  padding-right: 20px;
+}
